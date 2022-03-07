@@ -1,0 +1,26 @@
+{
+  "name": "image-blend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node blend",
+    "sharp": "node blend_with_sharp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Limurezzz/image-blend.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Limurezzz/image-blend/issues"
+  },
+  "homepage": "https://github.com/Limurezzz/image-blend#readme",
+  "dependencies": {
+    "@mapbox/blend": "^2.0.1",
+    "axios": "^0.26.0",
+    "minimist": "^1.2.5",
+    "sharp": "^0.30.2"
+  }
+}
